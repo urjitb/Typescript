@@ -14,5 +14,4 @@ function Book(this: Book, title: string, author: string, pages: number) {
 
 }
 
-const animalFarm = new (Book as any)("Animal Farm", "George Orwell", 112)
-console.log(animalFarm.info()) 
+// Typescript is basically the superset of Javascript this means anything that would run in JS should run in TS on stock values.
